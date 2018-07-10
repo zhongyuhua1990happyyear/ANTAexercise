@@ -1,0 +1,62 @@
+body { background: #fff; }
+
+.wcp { width: 1190px; margin: 0 auto; position: relative; }
+.wcp .list_crumb { width: 100%; overflow: hidden; margin: 25px 0 15px; }
+.wcp .list_crumb ul li { float: left; }
+.wcp .list_crumb ul li a { font-size: 12px; line-height: 21px; color: #666; display: inline-block; margin-right: 3px; }
+.wcp .detailTotal { width: 100%; height: 670px; overflow: hidden; z-index: 5; }
+.wcp .detailTotal .detailLeft { width: 740px; position: relative; }
+.wcp .detailTotal .detailLeft .small { position: relative; height: 600px; width: 100px; overflow: hidden; }
+.wcp .detailTotal .detailLeft .small .dir { background: url(../img/detail_img/bgBtn.png) no-repeat 0 0; width: 27px; height: 27px; overflow: hidden; margin: 0 auto; cursor: pointer; }
+.wcp .detailTotal .detailLeft .small .dir2 { background-position: 0 -30px; }
+.wcp .detailTotal .detailLeft .small .imgMenu { height: 524px; width: 100px; overflow: hidden; margin: 15px auto; position: relative; }
+.wcp .detailTotal .detailLeft .small .imgMenu img { height: 98px; width: 98px; overflow: hidden; float: left; text-align: center; border: 1px solid #e5e5e5; margin-bottom: 5px; cursor: pointer; }
+.wcp .detailTotal .detailLeft .middle { position: relative; width: 594px; height: 594px; border: 3px solid #eee; margin: 0 20px; }
+.wcp .detailTotal .detailLeft .middle img { height: 100%; width: 100%; }
+.wcp .detailTotal .detailLeft .middle #smallFilter { position: absolute; width: 200px; height: 200px; background: #000; opacity: 0.6; cursor: pointer; display: none; }
+.wcp .detailTotal .detailLeft .middle #big { position: absolute; width: 400px; background: #fff; height: 400px; overflow: hidden; border: 3px solid #eee; left: 630px; top: 0; z-index: 10; display: none; }
+.wcp .detailTotal .detailLeft .middle #big #bigImg { width: 800px; height: 800px; position: absolute; top: 0; left: 0; }
+.wcp .detailTotal .detail { width: 450px; }
+.wcp .detailTotal .detail .detailHead { width: 100%; overflow: hidden; margin-bottom: 10px; }
+.wcp .detailTotal .detail .detailHead h1 { color: #000; font-size: 24px; font-weight: 700; padding-bottom: 10px; height: 28px; width: 100%; float: left; }
+.wcp .detailTotal .detail .detailHead h1 span { float: right; display: inline-block; color: #666464; font-size: 14px; font-weight: normal; margin-top: 6px; line-height: 18px; }
+.wcp .detailTotal .detail .detailHead a { display: block; float: left; color: #f00; width: 100%; height: 16px; line-height: 20px; margin: 5px auto; }
+.wcp .detailTotal .detail .salesList { position: relative; width: 100%; }
+.wcp .detailTotal .detail .salesList p.hotImg { width: 100%; }
+.wcp .detailTotal .detail .salesList p.hotImg img { width: 450px; }
+.wcp .detailTotal .detail .salesList p.salesPrice { color: #c40000; font-size: 28px; overflow: hidden; margin-bottom: 10px; }
+.wcp .detailTotal .detail .salesList p.oldPrice { color: #999; overflow: hidden; margin-bottom: 10px; font-size: 14px; }
+.wcp .detailTotal .detail .alertSales { padding: 27px 20px; background: #eee; min-height: 36px; }
+.wcp .detailTotal .detail .alertSales a { display: block; }
+.wcp .detailTotal .detail .alertSales a p { width: 450px; color: #c40000; line-height: 23px; font-size: 14px; }
+.wcp .detailTotal .detail .selectBox { width: 446px; z-index: -1; }
+.wcp .detailTotal .detail .selectBox .colorBox p { line-height: 40px; color: #666464; font-size: 14px; overflow: hidden; }
+.wcp .detailTotal .detail .selectBox .colorBox ul { overflow: hidden; }
+.wcp .detailTotal .detail .selectBox .colorBox ul li { float: left; height: 60px; position: relative; width: 60px; border: 1px solid #b8b7bd; margin: 0 5px 7px 0; cursor: pointer; }
+.wcp .detailTotal .detail .selectBox .colorBox ul li img { width: 100%; height: 100%; }
+.wcp .detailTotal .detail .selectBox .colorSize { padding-top: 4px; }
+.wcp .detailTotal .detail .selectBox .colorSize p { line-height: 40px; color: #666464; font-size: 14px; width: 100%; position: relative; }
+.wcp .detailTotal .detail .selectBox .colorSize p span { display: inline-block; width: 120px; }
+.wcp .detailTotal .detail .selectBox .colorSize p a { position: absolute; right: 0; top: 0; width: 120px; height: 40px; text-align: center; }
+.wcp .detailTotal .detail .selectBox .colorSize ul { overflow: hidden; }
+.wcp .detailTotal .detail .selectBox .colorSize ul li { float: left; width: 42px; height: 30px; line-height: 30px; border: 1px solid #b8b7bd; margin-left: 5px; text-align: center; color: #666; }
+.wcp .detailTotal .detail .selectBox .sumBox { margin-top: 20px; height: 42px; }
+.wcp .detailTotal .detail .selectBox .sumBox div.number { overflow: hidden; }
+.wcp .detailTotal .detail .selectBox .sumBox div.number span.operate { width: 30px; height: 40px; line-height: 40px; text-align: center; border: 1px solid #ccc; }
+.wcp .detailTotal .detail .selectBox .sumBox div.number span.num { width: 40px; height: 40px; margin: 0 5px; line-height: 40px; text-align: center; border: 1px solid #ccc; }
+.wcp .detailTotal .detail .selectBox .sumBox div.toCart { font-size: 16px; color: #fff; height: 42px; line-height: 42px; margin-left: 4px; width: 156px; border-radius: 2px; background: #000; text-align: center; cursor: pointer; }
+.wcp .detailTotal .detail .selectBox .sumBox div.buyNow a { display: inline-block; font-size: 16px; color: #fff; height: 42px; line-height: 42px; margin-left: 4px; width: 156px; border-radius: 2px; background: #f00; text-align: center; cursor: pointer; }
+.wcp .detailTotal .detail .salesDes { margin-top: 20px; }
+.wcp .detailTotal .detail .salesDes h4 { font-size: 14px; margin-bottom: 10px; color: #000; }
+.wcp .detailTotal .detail .salesDes p { font-size: 14px; line-height: 18px; color: #b1b1b1; }
+.wcp div.mayLike { margin-top: 50px; border-top: 1px solid #ccc; }
+.wcp div.mayLike h1 { font-size: 35px; font-weight: bold; font-family: Arial; line-height: 80px; height: 80px; text-align: center; }
+.wcp div.mayLike a { display: inline-block; margin-right: 12px; width: 220px; height: 220px; border: 1px solid #d9d9d9; }
+.wcp div.mayLike a img { display: inline-block; width: 100%; }
+.wcp div.mayLike a.lastA { margin-right: 0; }
+.wcp div.changeAble { text-align: center; }
+.wcp div.changeAble span { display: inline-block; width: 155px; height: 43px; background: #0d0d0d; border-radius: 2px; color: #fff; font-size: 18px; line-height: 43px; text-align: center; margin-bottom: 30px; }
+.wcp div.changeAble span.lastSpan { background: #b5b5b5; margin-left: 30px; }
+.wcp div.changeAble img { display: block; text-align: center; border: none; margin: 0 auto; }
+
+/*# sourceMappingURL=detail.css.map */

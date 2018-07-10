@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cart</title>
+    <link rel="shortcut icon" href="../img/index_img/anta.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <div id="filter"></div>
+    <div id="loginBox">
+    <div id="loginTug"></div>
+    <div class="antalogo"><img src="../img/index_img/logo.png" alt=""></div>
+    <form>
+        <h2><span class="toLogin active">密码登录</span><span class="toLogin">短信登录</span></h2>
+        <div id="forLogin">
+
+            <div id="forpwd" class="togetable">
+                <div><input type="text" placeholder="用户名/手机号/邮箱" id="user"><p></p></div>
+                <div><input type="password" placeholder="密码" id="pwd"></div>
+                <div><input type="text" placeholder="随机验证码" id="toRandom"><a href="##" class="randomNum"></a><p></p></div>
+                <input  type="submit" value="登录" class="submit">
+                <div class="nopadding">
+                    <label for="selfLogin1"><input type="checkbox" id="selfLogin1">下次自动登录</label>
+                    <div class="turn">
+                        <a href="##">忘记密码</a><span>|</span><a href="##">注册</a>
+                    </div>
+                </div>
+            </div>
+            <div id="formsg" class="togetable">
+                <div><input type="text" placeholder="手机号" id="phone"><p></p></div>
+                <div><input type="password" placeholder="手机验证码" id="getnum"><p></p></div>
+                <input  type="submit" value="登录" class="submit">
+                <div class="nopadding">
+                    <label for="selfLogin2"><input type="checkbox" id="selfLogin2">下次自动登录</label>
+                    <div class="turn">
+                        <a href="##">忘记密码</a><span>|</span><a href="##">注册</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <div class="third">
+        <p>第三方账号登录</p>
+        <a href="##"><img src="../img/index_img/wechat.png" alt=""></a>
+        <a href="##"><img src="../img/index_img/wechat.png" alt=""></a>
+        <a href="##"><img src="../img/index_img/wechat.png" alt=""></a>
+    </div>
+</div>
+    <div id="regBox">
+    <div id="regTug"></div>
+    <div class="antalogo"><img src="../img/index_img/logo.png" alt=""></div>
+    <form>
+        <h2>用户注册</h2>
+        <div id="forReg">
+            <div><input type="text" name="username" placeholder="用户名" id="userReg"><p></p></div>
+            <div><input type="password" name="password" placeholder="密码" id="pwdReg"><p></p></div>
+            <div><input type="password" placeholder="请重复密码密码" id="pwdAgain"><p></p></div>
+            <div><input type="text" name="phone" placeholder="手机号" id="phoneReg"><p></p></div>
+            <div><input type="text"  placeholder="随机验证码" id="toRandomReg"><a href="##" class="randomNum"></a><p></p></div>
+            <div class="nopadding"><label for="selfReg"><input type="checkbox" id="selfReg">同意并接受安踏用户协议</label></div>
+            <input  type="submit" value="注册" id="submitReg">
+        </div>
+    </form>
+    <div class="third">
+        <p>第三方账号注册</p>
+        <a href="##"><img src="../img/index_img/wechat.png" alt=""></a>
+        <a href="##"><img src="../img/index_img/wechat.png" alt=""></a>
+        <a href="##"><img src="../img/index_img/wechat.png" alt=""></a>
+    </div>
+</div>
+    <div class="main topNav">
+    <a href="##">
+        你好，欢迎来到安踏官方商城！
+    </a>
+    <a href="##" id="login">登录</a>
+    <span>|</span>
+    <a href="##" id="register">注册</a>
+    <ul class="fr inb">
+
+        <li class="fr"><a href="##">企业团购</a></li>
+        <li class="fr"><a href="##"><i class="iconfont">&#xe8c0;</i>手机商城</a><span>|</span></li>
+        <li class="fr"><a href="##">品牌官网</a><span>|</span></li>
+        <li class="fr"><a href="##">我的安踏</a><span>|</span></li>
+    </ul>
+</div>
+    <div class="forBorder">
+        <div class="flow">
+        <a href="##"><img src="../img/cart_img/cn_logo.png" alt=""></a>
+        <span>成功提交订单</span><span>填写核对订单信息</span><span>我的购物车</span>
+    </div>
+    </div>
+    <div class="cartDetail">
+        <h2>我的购物车</h2>
+        <table id="table">
+            <tr class="tbhead">
+                <th><input type="checkbox" class="cartCheck" id="checkAll"></th>
+                <th>商品编号</th>
+                <th>商品图片</th>
+                <th>商品信息</th>
+                <th>单价</th>
+                <th>商品数量</th>
+                <th>总价</th>
+                <th>删除商品</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="cartCheck soncheck" data-id="sonCheck"></td>
+                <td>11831111</td>
+                <td><img src="../img/detail_img/pic02.jpg"></td>
+                <td>fdsaafafa</td>
+                <td>￥499.00</td>
+                <td><span class="changeBox" id="minus">-</span><span id="num"><input type="text" value="1" id="changeNum"></span><span id="add" class="changeBox">+</span></td>
+                <td width="76">￥499</td>
+                <td><a href="##" id="del">删除</a></td>
+            </tr>
+
+
+
+
+
+            <tr class="toolbar">
+                <td colspan="5" id="delete"><span id="delChk">删除选中的商品</span><span id="clearAll">清空购物车</span></td>
+                <td colspan="6" id="cash">
+                    <p><span>订单优惠</span><i id="less">-￥50.00</i></p>
+                    <p><span>应付金额</span><i id="total">￥848.00</i></p></td>
+            </tr>
+            <tr class="cartBtn">
+                <td colspan="8"><a href="##">继续购物</a><a href="##">提交订单</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="commonFooter"></div>
+</body>
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/js/ajax.js"></script>
+<script src="../js/js/index.js"></script>
+<script src="../js/js/register2.js"></script>
+<script src="../js/js/login2.js"></script>
+<script src="../js/js/footer.js"></script>
+<script src="../js/js/cart.js"></script>

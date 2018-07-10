@@ -1,0 +1,27 @@
+div.forBorder { width: 100%; border-bottom: 2px solid #ddd; margin-bottom: 20px; }
+div.forBorder div.flow { width: 1190px; margin: 0 auto; height: 100px; line-height: 100px; font-size: 12px; color: #ccc; }
+div.forBorder div.flow a { display: inline-block; float: left; width: 260px; height: 62px; line-height: 140px; }
+div.forBorder div.flow span { float: right; display: inline-block; text-align: right; margin-left: 30px; }
+
+div.cartDetail { width: 1050px; margin: 0 auto; }
+div.cartDetail h2 { font-size: 20px; line-height: 55px; font-weight: bold; float: left; position: relative; }
+div.cartDetail table { width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 12px; color: #333; font-weight: normal; }
+div.cartDetail table tr.tbhead { height: 30px; background: #f5f5f5; line-height: 30px; }
+div.cartDetail table tr { padding: 15px 0; }
+div.cartDetail table tr td { text-align: center; }
+div.cartDetail table tr td img { width: 50px; height: 50px; }
+div.cartDetail table tr td span.changeBox { display: inline-block; cursor: pointer; width: 30px; height: 30px; font-size: 18px; background: #eee; border: 1px solid #ccc; line-height: 30px; }
+div.cartDetail table tr td span#num { width: 80px; height: 30px; }
+div.cartDetail table tr td span#num input#changeNum { background: #fff; border: 1px solid #ccc; text-align: center; line-height: 30px; outline: none; width: 80px; height: 30px; border-radius: 0; position: relative; top: -3px; }
+div.cartDetail table tr.toolbar td#delete { clear: both; width: 200px; padding: 25px 0 15px; text-align: left; }
+div.cartDetail table tr.toolbar td#delete span { display: inline-block; margin: 0 10px; color: #005ea7; cursor: pointer; }
+div.cartDetail table tr.toolbar td#cash { text-align: right; }
+div.cartDetail table tr.toolbar td#cash p { margin-bottom: 10px; font-size: 16px; }
+div.cartDetail table tr.toolbar td#cash p span { display: inline-block; }
+div.cartDetail table tr.toolbar td#cash p i { display: inline-block; width: 100px; color: #d00; margin-left: 10px; font-size: 22px; font-style: normal; }
+div.cartDetail table tr.cartBtn td { text-align: right; }
+div.cartDetail table tr.cartBtn td a { background: #f00; display: inline-block; width: 130px; height: 35px; margin-right: 10px; line-height: 35px; text-align: center; border: 1px solid #ccc; border-radius: 2px; color: #fff; }
+
+.cartCheck { width: 12px; height: 12px; }
+
+/*# sourceMappingURL=cart.css.map */

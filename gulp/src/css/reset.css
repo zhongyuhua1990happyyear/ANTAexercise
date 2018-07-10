@@ -1,0 +1,41 @@
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, select,textarea, input{
+    margin:0;
+    padding: 0;
+}
+fieldset,img{
+    border: none;
+}
+
+ul li,ol li{
+    list-style-type:none;
+}
+b, strong, i em h1,h2, h3,h4,h5,h6{
+    font-weight: normal;
+    font-style: normal;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+input{
+    outline:none;
+}
+/*body{*/
+    /*color: #333333;*/
+    /*font: 12px/20px "simsun","宋体","arial narrow",helvetica;*/
+/*}*/
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff0000;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.inb{display:inline-block;}
+.blo{display:block;}
